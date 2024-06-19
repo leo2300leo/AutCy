@@ -1,5 +1,8 @@
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit("http://172.19.181.178/", { timeout: 30000 });
+    // we aren't logged in, so our web server
+    // redirected us to /login
+    cy.visit("http://172.19.181.178");
+    cy.url().should("match", /login/);
   })
 })
