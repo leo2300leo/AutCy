@@ -3,6 +3,6 @@ describe('template spec', () => {
     // we aren't logged in, so our web server
     // redirected us to /login
     cy.visit("http://172.19.181.178");
-    cy.url().should("match", /login/);
+    cy.url("http://172.19.181.178").should("match", /login/);
   })
 })
