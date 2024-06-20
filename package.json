@@ -1,4 +1,6 @@
 {
+  
+  
   "name": "autcy",
   "version": "1.0.0",
   "description": "",
@@ -11,4 +13,7 @@
   "devDependencies": {
     "cypress": "^13.11.0"
   }
+
+
 }
+

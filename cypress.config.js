@@ -3,6 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   projectId: "eerz7u",
   e2e: {
+
     screenshotOnRunFailure: true,
     screenshotsFolder: "cypress/screenshots",
     scrollBehavior: "top",
